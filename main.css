@@ -1,0 +1,404 @@
+﻿* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+body{
+    background-image: url("grafika/upperbackground.jpg");
+    background-repeat: repeat;
+    background-color: white;
+    
+}
+
+#all{
+    
+    
+    width: 920px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#logo{
+    
+    background-image: url("grafika/logo.jpg");
+    height: 350px;
+    width: 920px;
+    border: 1px solid black;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+    
+}
+
+
+.transbox {
+	width: 920px;
+	margin: 0 auto;
+	background-color: #fff;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+
+    .transbox2 {
+	width: 920px;
+	margin: 0 auto;
+	background-color: #fff;
+	
+}
+
+   
+
+.transbox h1 {
+	padding: 20px;
+	color: black;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+    
+}
+
+.transbox p {
+	padding: 20px;
+	color: black;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+    margin-top: 10px;
+}
+
+#all #logo h1{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+}
+
+#all #logo p{
+    position: absolute;
+    margin-top: 160px;
+    text-align: center;
+    font-size: 30px;
+   text-shadow: 3px 3px 3px grey;
+}
+
+#all #content{
+    height: 800px;  
+    background-color: #c3c3c3;
+    background-image: url("grafika/contentbackground.jpg");
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-box-shadow:inset 1px 1px 10px 1px black;
+box-shadow:inset 1px 1px 10px 1px black;
+    
+}
+
+#all #boxes{
+    height: 500px;
+    float: right;
+    width: 25%;
+    margin-top: 50px;
+    
+}
+
+#all #tresc{
+ background-color: #ffffff;
+ height: 700px;
+    width: 60%;
+    float: left;
+    padding 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 10px 2px black;
+    box-shadow: 2px 2px 10px 2px black;
+    
+    
+}
+
+#all #tresc img{
+ float: left;
+ margin-left: -30px;
+ margin-top: -30px;
+padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.czcionka{
+       text-shadow: 2px 2px 2px #c3c3c3;
+    
+}
+
+#all #tresc #powitanie{
+ float: right;
+    margin-right: 120px;
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+    padding-bottom: 100px;
+}
+
+#all #tresc #opis{
+    float: left;
+    display: block;
+    margin-left: 10px;
+    font-family: 'Vollkorn', serif;
+    font-size: 14px;
+}
+
+#all #tresc #opis #list3{
+    list-style-image: url("grafika/arrow.png"); 
+    color:black; 
+    font-size:18px;
+    margin-top: 15px;
+    
+}
+#all #tresc #opis ul{
+  margin-left: 30px;
+}
+
+#all #tresc #opis p{
+  font-size: 20px;
+    
+}
+
+
+
+#all #boxes #kontakt{
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    height: 320px;
+    width: 275px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    display: block;
+    
+    padding-top: 7px;
+    margin-right: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #c3c3c3;
+    -webkit-box-shadow:inset 2px 2px 10px 2px black;
+    box-shadow: 2px 2px 10px 2px black;
+    text-align: center;
+     padding-bottom: 20px;
+    
+    
+}
+
+#all #boxes #kontakt h2{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+}
+
+#all #boxes #kontakt p{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+
+#all #boxes #galeria{
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+
+#all #boxes #galeria img{
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow:inset 1px 1px 10px 1px black;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+
+#all #boxes #brick{
+    float: right;
+    margin-right: 100px;
+   
+    
+}
+#all #footer{
+    
+    background-image: url("grafika/contentbackground.jpg");
+    margin-top: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: left;
+    height: 40px;
+    font-family: 'Vollkorn', serif;
+    -webkit-box-shadow:inset 1px 1px 10px 1px black;
+box-shadow:inset 1px 1px 10px 1px black;
+    
+}
+
+#all #footer p{
+   background-color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 1px 1px 10px 1px black;
+box-shadow: inset1px 1px 10px 1px black;
+}
+
+#ap_galeria{
+    background-color: #ffffff;
+    height: 700px;
+    width: 860px;
+    float: left;
+    padding 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 10px 2px black;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: 922px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+    border: 1px solid black;
+    border-top: none;
+
+}
+#cssmenu.align-right ul li {
+  float: right;
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.22);
+}
+#cssmenu.align-right ul li a {
+  border-right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+#cssmenu ul {
+  background: #222222;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu ul li {
+  float: left;
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.22);
+  z-index: 1;
+  margin-left: 1px;
+    
+}
+#cssmenu ul li::after {
+  content: "";
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  border-top-left-radius: 50% 4px;
+  border-top-right-radius: 50% 4px;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 2;
+  bottom: 10px;
+}
+#cssmenu ul li a {
+ 
+  display: block;
+  padding: 20px 75px;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 3;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  color: #ffffff;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #1275ae;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(bottom, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
+  background: -webkit-linear-gradient(bottom, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
+  background: -o-linear-gradient(bottom, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
+  background: -ms-linear-gradient(bottom, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
+  background: linear-gradient(to top, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
+}
+#cssmenu ul li:hover::after,
+#cssmenu ul li.active::after {
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
+  background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+
+
+a:focus { 
+	outline:none; /*usuwanie niebieskiej obwódki w FF*/
+}
+
